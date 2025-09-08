@@ -1,4 +1,4 @@
-import { Button, Input, Box } from '@/components';
+import { Button, Input, Box, Icon } from '@/components';
 
 export const Login = () => {
   return (
