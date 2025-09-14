@@ -1,3 +1,5 @@
-import { Login } from "./Login";
+import { InitialPageScreen } from './InitialPage';
+import { SignInScreen } from './SignIn';
+import { SignUpScreen } from './SignUp';
 
-export { Login };
+export { InitialPageScreen, SignInScreen, SignUpScreen };
