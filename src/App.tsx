@@ -1,5 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { InitialPageScreen, SignInScreen, SignUpScreen } from './screens';
+import {
+  InitialPageScreen,
+  SignInScreen,
+  SignUpScreen,
+  HomeScreen,
+} from './screens';
 import './App.css';
 
 function App() {
@@ -9,6 +14,7 @@ function App() {
         <Route path="/" element={<InitialPageScreen />} />
         <Route path="/sign-in" element={<SignInScreen />} />
         <Route path="/sign-up" element={<SignUpScreen />} />
+        <Route path="/home" element={<HomeScreen />} />
       </Routes>
     </Router>
   );

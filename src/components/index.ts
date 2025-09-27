@@ -6,5 +6,16 @@ import { Icon } from './Icon';
 import { Image } from './Image';
 import { CombinationMark } from './CombinationMark';
 import { Avatar } from './Avatar';
+import { Lettermark } from './Lettermark';
 
-export { Button, Input, Box, Text, Icon, Image, CombinationMark, Avatar };
+export {
+  Button,
+  Input,
+  Box,
+  Text,
+  Icon,
+  Image,
+  CombinationMark,
+  Avatar,
+  Lettermark,
+};
