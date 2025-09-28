@@ -7,6 +7,10 @@ import { Image } from './Image';
 import { CombinationMark } from './CombinationMark';
 import { Avatar } from './Avatar';
 import { Lettermark } from './Lettermark';
+import { Header } from './Header/Header';
+import { FeedbackItem } from './FeedbackItem';
+import { SentSection } from './SentSection';
+import { BlurModal } from './BlurModal';
 
 export {
   Button,
@@ -18,4 +22,8 @@ export {
   CombinationMark,
   Avatar,
   Lettermark,
+  Header,
+  FeedbackItem,
+  SentSection,
+  BlurModal,
 };
